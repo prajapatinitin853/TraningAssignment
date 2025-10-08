@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(12, 28, 40);
+}
+
+
+/* Title Styling */
+
+#title {
+
+    margin-bottom: 2%;
+    text-align: center;
+    padding: 2%;
+    color: aqua;
+}
+
+/* search box Styling */
+#search-box {
+    margin: 1%;
+    margin-left: 23%;
+    padding-right: 15%;
+    border: none;
+    border-radius: 6px;
+    width: 40%;
+    border: 2px solid;
+    height: 80px;
+    font-size: 96%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+}
+
+#search-box::placeholder {
+    color:black;
+    font-style: italic;
+    font-size: 15px;
+    opacity: 0;
+}
+
+#search-box:hover::placeholder {
+    opacity: 1;
+}
+
+#search-box:hover {
+    background-image: none;
+    background-color:rgb(98, 98, 155);
+    color: azure;
+    width: 40%;
+    height: 50px;
+
+}
+
+/* Button Styling */
+#search-btn {
+    color: aliceblue;
+    background-color: green;
+    border-radius: 12px;
+    border: 2px solid;
+    width: 10%;
+    height: 40px;
+}
+/* main body content styling */
+.movie-list{
+    margin-top: 4%;
+    text-align: center;
+    color:#fff;
+    justify-content: center;
+}
+/* div styling */
+#main-div{
+    
+    position:"fixed";
+    height:100%;
+}
+#first-div{
+    /* background-color: green; */
+    height:90%;
+    position:"fixed";
+    
+}
+#second-div{
+    /* background-color: blue; */
+    height:10%;
+    position:"fixed"
+}
+/* Footer Styling  */
+footer {
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
